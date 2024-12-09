@@ -7,22 +7,23 @@ import { HiStar } from "react-icons/hi2";
 import Buttons from "@/app/button";
 export default function TopSelling() {
     return (
-        <div className="max-w-[1440px] h-[300px]  mt-[1300px] md:mt-0 mb-42">
+        <div className=" w-[1170px] h-[622px] mr-4">
             {/* Heading */}
-            <h2 className="w-[403px] h-[58px] text-[48px] mx-auto my-12 font-bold leading-[48px] traking-[4%]">
+            <h2 className="w-[403px] h-[58px] text-[48px] mx-auto ml-0 md:ml-4 my-12 font-bold leading-[48px] traking-[4%]">
                Top selling
             </h2>
 
-            <div className="max-w-[1440px] h-[433px] flex justify-center flex-wrap space-x-4">
+            <div className="w-[440px] h-[500px] grid justify-center md:grid-cols-4 grid-cols-2  space-x-4">
                 {/* 1st blog */}
-                <div>
-                    <div className="md:w-[295px] bg-lineColor rounded-[4px]">
+               
+                 <div>
+                 <div className="w-[295px] bg-lineColor rounded-[4px]">
                         <Image src={Blog1} alt={'ProductDtails'} width={150} height={150}
-                            className="w-[295px] h-[298px]" />
+                            className="w-[295px] h-[298px] rounded-3xl" />
                     </div>
                     <div className="w-[295px] h-[27px] my-6">
                         <p className="text-[20px] font-bold">
-                            T-SHIRT WITH TAPE DETAILS
+                        T-SHIRT WITH TAPE DETAILS
                         </p>
                     </div>
                     <div className="w-[150px] ">
@@ -78,8 +79,8 @@ export default function TopSelling() {
                 </div>
 
                 {/* 3rd blog */}
-                <div>
-                    <div className="w-[295px] bg-lineColor rounded-[4px]">
+                <div  className="hidden md:block">
+                    <div className="hidden md:block w-[295px] bg-lineColor rounded-[4px]">
                         <Image src={Blog3} alt={'ProductDtails'} width={150} height={150}
                             className="w-[295px] h-[298px]" />
                     </div>
@@ -108,8 +109,8 @@ export default function TopSelling() {
                 </div>
 
                 {/* 4th blog */}
-                <div>
-                    <div className="w-[295px] bg-lineColor rounded-[4px]">
+                <div  className="hidden md:block">
+                    <div className="hidden md:block w-[295px] bg-lineColor rounded-[4px]">
                         <Image src={Blog4} alt={'ProductDtails'} width={150} height={150}
                             className="w-[295px] h-[298px]" />
                     </div>

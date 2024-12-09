@@ -3,7 +3,7 @@ import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
 
 export default function OurCustomer() {
     return (
-        <section className=" md:w-[1239px] ml-8 my-8 md:h-[466px]  w-[350px] h-[975px]  rounded-3xl">
+        <section className="md:w-[1170px] ml-8  md:h-[560px] md:ml-12 w-[350px] h-[975px]  rounded-3xl">
             <div className=" flex justify-center ">
                 {/* Heading and Timer */}
                 <div className='md:w-[1440px] w-[500px] h-[103px] md:[88px] flex justify-between  items-center'>

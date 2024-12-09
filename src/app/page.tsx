@@ -1,5 +1,4 @@
 
-import Arrivals from "./components/arrivals/page";
 import LaedingPage from "./components/home/page";
 
 import Reactangular from "./components/rectangular/page";
@@ -12,7 +11,6 @@ export default function Home() {
 <div>
 <LaedingPage/>
 <Reactangular/>
-<Arrivals/>
 <TopSelling/>
 <HappyClient/>
 <OurCustomer/>

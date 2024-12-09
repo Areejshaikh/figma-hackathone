@@ -3,6 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Footer from "./components/footer/page";
 import Navber from "./components/navber/page";
+import Link from "next/link";
+<Link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></Link>
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

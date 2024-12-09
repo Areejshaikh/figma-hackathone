@@ -6,7 +6,7 @@ import Button from "@/app/button";
 function LaedingPage() {
     return (
         <section className=" bg-image py-10 my-2 px-9">
-            <div className="max-w-[1440px] md:h-[433px] [h-853px]  flex flex-col items-start mt-8  bg-[#F2F0F1]">
+            <div className="max-w-[1170px] md:h-[433px] [h-448px]  flex flex-col items-start mt-8  bg-[#F2F0F1]">
                 <div className="lg:relative lg:w-[577px] lg:h-[173px] w-[352px] h-[93px] lg:mb-4 mb-20">
                     <h3 className=" text-black   text-[36px] font-extrabold lg:text-[64px] leading-[64px]">FIND CLOTHES THAT MATCHES YOUR STYLE</h3>
                 </div>
